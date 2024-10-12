@@ -1,3 +1,6 @@
+'''
+把txt文件中的加密注册码的可能性列举出来形成excel表格用于while_try_InvitationCode.py遍历
+'''
 import itertools
 
 # 字符集
