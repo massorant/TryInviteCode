@@ -1,12 +1,14 @@
 # 爆破加密注册码
 旨在分享和交流计算机技术！
 
-### 需要：
-version: 123.0.6312.122 
+### 准备：
 
-1、Chrome
+| 序号  | 需要  | 版本  |  
+| ---- | ---- | ---- |  
+| 1 | Chrome | 123.0.6312.122  |  
+| 2 | ChromeDriver | 123.0.6312.122  |
 
-2、ChromeDriver
+dowmload: https://googlechromelabs.github.io/chrome-for-testing/
 
 
 ### 使用方法：
@@ -18,5 +20,5 @@ version: 123.0.6312.122
 
 *generateName.py 可以快速生成用户名，以便第一时间拿到注册码快速注册*
 
-## 未解决的问题：
+### 未解决的问题：
 在打包成.exe文件后ddddocr失效。暂时使用带gui的.py。
