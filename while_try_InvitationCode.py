@@ -21,7 +21,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-#邮箱
+#邮箱（为了远程提醒解码成功）
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -156,7 +156,6 @@ def run_process():
             log_file.write(f"Row {rx + 1}: {result_text}\n")
 
             if "驗證碼不正確" in result_text:
-                #handle_captcha()
                 continue
             elif "恭喜" in result_text:
                 write_sheet.write(rx, 2, 'yes')
