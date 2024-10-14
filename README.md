@@ -1,6 +1,8 @@
 # 爆破加密注册码
 旨在分享和交流计算机技术！
 
+[![pAtVPq1.md.png](https://s21.ax1x.com/2024/10/14/pAtVPq1.md.png)](https://imgse.com/i/pAtVPq1)
+
 ### 准备：
 
 | 序号  | 需要  | 版本  |  
